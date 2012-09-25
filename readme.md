@@ -1,5 +1,4 @@
-<pre>
-<center>
+<pre> 
    __    __  __   ____    
  /'__`\ /\ \/\ \ /\  _`\  
 /\ \/\ \\ \ \ \ \\ \ \L\ \
@@ -7,11 +6,11 @@
  \ \ \_\ \\ \ \_/ \\ \ \/ 
   \ \____/ \ `\___/ \ \_\ 
    \/___/   `\/__/   \/_/ 
-</center>               
-</pre>
+
+</pre> 
 
 [0VP - Vybrane kapitoly z programovani]
-===================================
+=======================================
 
 Priklady, ulohy a dalsi informace k predmetu [0VP]
 (https://www.vutbr.cz/studium/ects-katalog/detail-predmetu?apid=126886&oid=8451).
@@ -21,7 +20,7 @@ Kazde cviceni ma svuj adresar ve kterem naleznete jednotlive priklady ze cviceni
 
 
 Cile predmetu
---------------
+-------------
 Cilem predmetu je zvladnuti vybranych partii z programovani. Smyslem je zajemcum 
 doplnit chybejici vstupni znalosti tak, aby behem dalsiho studia i praxe dokazali 
 zvladat problemy, pri jejichz reseni je treba programovat.
