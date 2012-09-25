@@ -1,4 +1,4 @@
-                                                                                                    
+<pre>
              .X#########x          #######                #######    ##############+,               
           .#####XxxxxxX####.       #######               #######.    ###################            
          ###Xx#########xxx###      x#xxxx#,             ##xxxX#;    x#xxxX#########xxxX###          
@@ -19,14 +19,14 @@
    ##xxx##       ###xxX##             #XxxxXXXxx##,            ##xxx##                              
    x##xxx#########XxX###              ##xxxxxxxX#x             #Xxxx#-                              
     .###XxxxXXXxx#####                +#XXXXXXX##             ,#XXXX#                               
-       ###########X                   =#########              #######                               
-                                                                                                    
+       ###########X                   =#########              #######      
+</pre>
 
 [0VP - Vybrane kapitoly z programovani]
 ===================================
 
-Priklady, ulohy a dalsi informace k predmetu 0VP.
-https://www.vutbr.cz/studium/ects-katalog/detail-predmetu?apid=126886&oid=8451
+Priklady, ulohy a dalsi informace k predmetu [0VP]
+(https://www.vutbr.cz/studium/ects-katalog/detail-predmetu?apid=126886&oid=8451).
 
 Postupne zde budou zverejneny priklady probirane na cvicenich tohoto predmetu. 
 Kazde cviceni ma svuj adresar ve kterem naleznete jednotlive priklady ze cviceni. 
@@ -45,34 +45,31 @@ Pro kompilaci vetsiny prikladu muzete pouzit jakykoliv C89/90 kompilator.
 Priklady jsou vytvareny pomoci vyvojoveho prostredi Visual Studia 2008/10/12 
 nebo za pouziti TCC (Tiny C Compiler).
 
-Doporucene vyvojove prostredi:
+Vyvojove prostredi:
 
 Express verze Visual Studia (zdarma) je dostupna zde:
 https://www.microsoft.com/visualstudio/cze/downloads
 
-Doporucena verze je Visual C++ 2010 Express 
-http://go.microsoft.com/?linkid=9709949
- 
-nebo Visual Studio 2012 Express for Windows Desktop
-(zabira vice mista nez VS 2010) http://go.microsoft.com/?linkid=9816758
+Doporucena verze je [Visual C++ 2010 Express]
+(http://go.microsoft.com/?linkid=9709949),
+dale muzete pouzit [Visual Studio 2012 Express for Windows Desktop]
+(http://go.microsoft.com/?linkid=9816758) (zabira vice mista nez VS 2010), nebo
+[Dev C++]
+(http://www.bloodshed.net/devcpp.html).
 
-Dev C++
-http://www.bloodshed.net/devcpp.html
-
-Dalsi kompilatory naleznete zde
-TCC:       http://bellard.org/tcc/
-GCC/MinGW: http://nuwen.net/
+Samostatne kompilatory naleznete zde:
+- [TCC](http://bellard.org/tcc/)
+- [MinGW](http://nuwen.net/)
 
 
 Doporucena literatura
 ---------------------
-Kernighan, B.W. - Ritchie, D. M.: Programovaci jazyk C. Computer Press, 2006
-Herout, P.: Ucebnice jazyka C. Kopp, 2000
-McConnell, S.: Dokonaly kod - Umeni programovani a techniky tvorby software. Computer Press, 2006 
-Martin, R.C.: Cisty kod -Navrhove vzory, refaktorovani, testovani a dalsi techniky agilniho programovani. Computer Press, 2009
+- Kernighan, B.W. - Ritchie, D. M.: Programovaci jazyk C. Computer Press, 2006
+- Herout, P.: Ucebnice jazyka C. Kopp, 2000
+- McConnell, S.: Dokonaly kod - Umeni programovani a techniky tvorby software. Computer Press, 2006 
+- Martin, R.C.: Cisty kod -Navrhove vzory, refaktorovani, testovani a dalsi techniky agilniho programovani. Computer Press, 2009
 
 Doporucena odkazy
 -----------------
-http://majda.cz/download/swi113-2006-2007-slajdy.html
-http://drogo.fme.vutbr.cz/~jroupec/ccpp/
-http://www.fi.muni.cz/usr/jkucera/pb071/
+- [Dokonaly kod](http://majda.cz/download/swi113-2006-2007-slajdy.html)
+- [Jazyky C a C++](http://drogo.fme.vutbr.cz/~jroupec/ccpp/)
