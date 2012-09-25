@@ -56,7 +56,8 @@ Doporucena literatura
 - McConnell, S.: Dokonaly kod - Umeni programovani a techniky tvorby software. Computer Press, 2006 
 - Martin, R.C.: Cisty kod -Navrhove vzory, refaktorovani, testovani a dalsi techniky agilniho programovani. Computer Press, 2009
 
-Doporucena odkazy
+Doporucene odkazy
 -----------------
-- [Dokonaly kod](http://majda.cz/download/swi113-2006-2007-slajdy.html)
+- [Dokonaly kod](http://majda.cz/download/swi113-2006-2007-slajdy.html), prednasky Davida Majdy. 
 - [Jazyky C a C++](http://drogo.fme.vutbr.cz/~jroupec/ccpp/)
+- [C Language Reference Manual](http://www.cs.wfu.edu/~torgerse/Kokua/More_SGI/007-0701-150/sgi_html/index.html)
