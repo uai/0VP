@@ -1,25 +1,13 @@
 <pre>
-             .X#########x          #######                #######    ##############+,               
-          .#####XxxxxxX####.       #######               #######.    ###################            
-         ###Xx#########xxx###      x#xxxx#,             ##xxxX#;    x#xxxX#########xxxX###          
-       ###xx###-      ##xxxX#-     ,#xxxx#+            ##xxxX#x     ##xxx#x ...,-X###xxxx##         
-      ##Xxx##;         ##xxx##      #xxxx##           -#Xxxx##      #xxxx#          ##xxxx#-        
-     ##xxx##            #xxxx#      #xxxxX#           ##xxx##      X#xxx##          .#xxxx#X        
-    ##xxx##           =##xxxx#-     #Xxxxx#          ##xxx##       #Xxxx#x           #xxxx#=        
-    #Xxxx#,        ;####xxxxx#-     ##xxxx#         ##xxx##        #xxxx#           ##xxxX#         
-   ##xxx##       ####xxxxxxxx#,     =#xxxx#        ##xxx##        ##xxx##          .#Xxxx##         
-   #xxxx#     X###XX###XXxxxx#       #xxxx#,      +#Xxx##         #Xxxx#x         x##xxx##          
-  ##xxxx#  =###Xx####  -XxxxX#       #xxxx#+     .##xxX#=         #xxxx#        ###Xxx###           
-  #Xxxxx#x###x####-    #Xxxx##       #xxxx##     ##xxX#X         ##xxxx##########Xxx###+            
-  #xxxxxXXxX###x      +#xxxX#        ##xxxX#    ##xxx##          #Xxxxxxxxxxxxxx#####=              
-  #xxxxxx####         ##xxx##        ##xxxx#   ##xxx##           #xxxx############;                 
-  #xxxxX##;          ##xxx##         ;#xxxx#  X#xxx##           ##xxx##                             
-  #xxxxX-           ##xxx##           #xxxx#  #Xxx##            #Xxxx#=                             
-  ##xxxX#          ##Xxx##.           #xxxx#,##xx##            ,#xxxx#                              
-   ##xxx##       ###xxX##             #XxxxXXXxx##,            ##xxx##                              
-   x##xxx#########XxX###              ##xxxxxxxX#x             #Xxxx#-                              
-    .###XxxxXXXxx#####                +#XXXXXXX##             ,#XXXX#                               
-       ###########X                   =#########              #######      
+<center>
+   __    __  __   ____    
+ /'__`\ /\ \/\ \ /\  _`\  
+/\ \/\ \\ \ \ \ \\ \ \L\ \
+\ \ \ \ \\ \ \ \ \\ \ ,__/
+ \ \ \_\ \\ \ \_/ \\ \ \/ 
+  \ \____/ \ `\___/ \ \_\ 
+   \/___/   `\/__/   \/_/ 
+</center>               
 </pre>
 
 [0VP - Vybrane kapitoly z programovani]
