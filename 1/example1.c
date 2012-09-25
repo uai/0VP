@@ -7,7 +7,7 @@
  *	Formatovany vypis apod.
  *	Seznameni s kompilaci (debug/release), vyvojovym prostredim, ladenim. 
  *	
-  *	This file is part of the 0VP course 
+ *	This file is part of the 0VP course 
  *	https://www.vutbr.cz/studium/ects-katalog/detail-predmetu?apid=126886&oid=8451
  *
  *	New BSD License
@@ -15,7 +15,6 @@
  */
 
 #include "stdio.h"
-#include "limits.h"
 
 int main(int argc, char *argv[])
 {
