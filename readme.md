@@ -41,8 +41,8 @@ Doporucena verze je [Visual C++ 2010 Express]
 (http://go.microsoft.com/?linkid=9709949),
 dale muzete pouzit [Visual Studio 2012 Express for Windows Desktop]
 (http://go.microsoft.com/?linkid=9816758) (zabira vice mista nez VS 2010), nebo
-[Dev C++]
-(http://www.bloodshed.net/devcpp.html).
+[Code::Blocks](http://www.codeblocks.org/), 
+[Dev C++](http://www.bloodshed.net/devcpp.html).
 
 Samostatne kompilatory naleznete zde:
 - [TCC](http://bellard.org/tcc/)
@@ -61,3 +61,6 @@ Doporucene odkazy
 - [Dokonaly kod](http://majda.cz/download/swi113-2006-2007-slajdy.html), prednasky Davida Majdy. 
 - [Jazyky C a C++](http://drogo.fme.vutbr.cz/~jroupec/ccpp/)
 - [C Language Reference Manual](http://www.cs.wfu.edu/~torgerse/Kokua/More_SGI/007-0701-150/sgi_html/index.html)
+- [C Programming FAQs: Frequently Asked Questions](http://c-faq.com/)
+- [Things to Avoid in C/C++](http://www.gidnetwork.com/b-56.html)
+- [An Intro to GitHub For Windows](https://www.youtube.com/watch?v=6-GwwMkvlTc)

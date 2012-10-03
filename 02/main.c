@@ -100,6 +100,34 @@ int main(int argc, char *argv[])
 	scanf("%s", string);
 	printf("String = %s \n", string); // !!!
 
+	// nacitani hodnot dokud neni zadano spravne
+	// tj pokud misto cisel zadavame alfabet. znaky
+	pocet = 0;
+	
+	while (!pocet)
+	{
+		printf("Zadej cislo: ");	
+		pocet = scanf("%f", &realne);   
+		fflush(stdin); 
+		//  dojde k zapsani dosud nezapsanych dat ze streamu
+		// bez tohoto se nam to zacykluje
+		
+	}
+	printf("prvek = %f \n", realne);
+
+	// pomoci do-while
+	pocet = 0;
+
+	do{
+		printf("Zadej prvek = ");
+		pocet = scanf("%f", &realne);
+		fflush(stdin);
+		//  dojde k zapsani dosud nezapsanych dat ze streamu
+		// bez tohoto se nam to zacykluje
+	}while (pocet == 0);
+
+	printf("prvek = %f \n", realne);
+
 	//-------------------------------------------------------------------------------------------------------------------------
 	// ridici struktury
 
