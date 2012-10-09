@@ -14,7 +14,8 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 
-#define BUFF_SIZE 1024 // konstanta
+#define STRING_SIZE 1024 // konstanta
+#define BUFFER_SIZE 81 // konstanta
 
 #include "stdio.h"
 //#include "conio.h"  
@@ -26,7 +27,7 @@ int main(int argc, char *argv[])
 	int cele = 0;
 	float realne;
 
-	char string[BUFF_SIZE]; // pole znaku
+	char string[STRING_SIZE]; // pole znaku
 
 	int pocet = 0;
 	unsigned int i = 0;
@@ -34,7 +35,9 @@ int main(int argc, char *argv[])
 	int a, b, c, d = 0;
 	
 	const unsigned int MAX_REPEATS = 10; // konstanta
-		
+
+	char buffer[BUFFER_SIZE]; // pole znaku
+	
 	//-------------------------------------------------------------------------------------------------------------------------
 	// vypisovani zpravy na obrazovku
 
@@ -114,6 +117,14 @@ int main(int argc, char *argv[])
 		
 	}
 	printf("prvek = %f \n", realne);
+	
+	// nebo takto
+	while (!scanf("%f", &realne))
+	{
+		fflush(stdin);
+		printf("Zadej cislo: ");	
+	}
+	printf("prvek = %f \n", realne);
 
 	// pomoci do-while
 	pocet = 0;
@@ -127,6 +138,18 @@ int main(int argc, char *argv[])
 	}while (pocet == 0);
 
 	printf("prvek = %f \n", realne);
+
+	// nacteni stringu pomoci getchar
+	printf( "Zadej radek: " );
+
+	// nacteni retezce  z stdin pomoci getcharu
+	for(i = 0; (i < 80) &&  ((ch = getchar()) != EOF) 
+		&& (ch != '\n'); i++ )
+		buffer[i] = (char)ch;
+
+	//  ukonceni retezce 0
+	buffer[i] = '\0';
+	printf( "%s\n", buffer );
 
 	//-------------------------------------------------------------------------------------------------------------------------
 	// ridici struktury

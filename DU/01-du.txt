@@ -1,0 +1,14 @@
+1.
+Napište program, který ze zadané hodnoty prùmìru vypoèítá objem kulového zásobníku na vodu. Výsledná hodnota se vypíše v litrech na obrazovku.
+Dále pøedpokládejte, že tento zásobník je umístìn na pouštní základnì, kterou obývá n osadníkù.
+Program vypíše, na kolik dní vystaèí voda v nádrži pøi spotøebì x litrù na osobu a den.           
+
+2.
+Pomocí znaku * vytvoøte na uživatelem zadaný poèet øádkù trojúhelníky.
+
+    *
+   ***
+  ***** 
+ *******
+*********
+

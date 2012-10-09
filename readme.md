@@ -64,3 +64,5 @@ Doporucene odkazy
 - [C Programming FAQs: Frequently Asked Questions](http://c-faq.com/)
 - [Things to Avoid in C/C++](http://www.gidnetwork.com/b-56.html)
 - [An Intro to GitHub For Windows](https://www.youtube.com/watch?v=6-GwwMkvlTc)
+- A Guide to Undefined Behavior in C and C++ [Part 1](http://blog.regehr.org/archives/213)[Part 2](http://blog.regehr.org/archives/226)[Part 3](http://blog.regehr.org/archives/232)
+- [Deep C](http://www.slideshare.net/olvemaudal/deep-c), prednaska Olve Maudala.
