@@ -5,7 +5,7 @@ Dále pøedpokládejte, že tento zásobník je umístìn na pouštní základnì, kterou ob
 Program vypíše, na kolik dní vystaèí voda v nádrži pøi spotøebì x litrù na osobu a den.           
 
 2.
-Pomocí znaku * vytvoøte na uživatelem zadaný poèet øádkù trojúhelníky.
+Pomocí znaku * vytvoøte na uživatelem zadaný poèet øádkù trojúhelník.
 
     *
    ***
