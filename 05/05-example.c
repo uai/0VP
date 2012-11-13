@@ -1,15 +1,18 @@
 /**
- * 
- *	Priklad c. 5, zaklady jazyka C
- *
- *	Pointry, volume 1! 
- *	
- *	This file is part of the 0VP course 
- *	https://www.vutbr.cz/studium/ects-katalog/detail-predmetu?apid=126886&oid=8451
- *
- *	New BSD License
- *
- */
+* 
+*	Priklad c. 5, zaklady jazyka C
+*
+*	Pointry, volume 1! 
+*	
+*	This file is part of the 0VP course 
+*	https://www.vutbr.cz/studium/ects-katalog/detail-predmetu?apid=126886&oid=8451
+*
+*	New BSD License
+*
+*	C language is all about speed. Hot, nasty, bad-ass speed. - Eleanor Roosevelt, 1936.
+*/
+
+
 
 #define  _CRT_SECURE_NO_WARNINGS
 
@@ -35,7 +38,7 @@ void swap_ptrs(int **x, int **y)
 
 int main(int argc, char *argv[])
 {
-	int a = 5;
+ 	int a = 5;
 	int *p;
 
 	int *p_int = NULL;
@@ -49,7 +52,7 @@ int main(int argc, char *argv[])
 
 	//-----------------------------------------------------------------------------------------------------------------------------------
 	p = &a;
-	
+
 	printf("Adresa a = %p\n", &a);
 	printf("Adresa p = %p\n", p);
 	printf("Absolutni adresa p = %p\n" ,&p);
@@ -57,11 +60,24 @@ int main(int argc, char *argv[])
 
 	// prirazeni hodnoty na adresu ulozenou v p tj do a
 	*p = 10;	
+	
 	printf("Hodnota a = %d\n", a);
 
 	printf("\n");
-	
 
+	//-----------------------------------------------------------------------------------------------------------------------------------
+	//  pouziti ptr jako argumentu fce
+	x = 10; 
+	y = 5;
+
+	swap(&x, &y);
+	printf("x = %d, y = %d\n", x, y);
+
+	swap_ptrs(&x, &y);
+	printf("x = %d, y = %d\n", x, y);
+
+	printf("\n");
+	
 	//-----------------------------------------------------------------------------------------------------------------------------------
 	// dynamicka alokace 
 	p_int = (int*) malloc(sizeof(int));
@@ -83,20 +99,7 @@ int main(int argc, char *argv[])
 		free(p_int);
 	} else 
 		printf("Snap! Chyba, malo pameti! \n");
-
-
-	//  pouziti ptr jako argumentu fce
-	x = 10; 
-	y = 5;
-
-	swap(&x, &y);
-	printf("x = %d, y = %d\n", x, y);
-
-	swap_ptrs(&x, &y);
-	printf("x = %d, y = %d\n", x, y);
-
-	printf("\n");
-
+	
 	//-----------------------------------------------------------------------------------------------------------------------------------
 	// prace na polu :) 
 
@@ -121,7 +124,7 @@ int main(int argc, char *argv[])
 	str = (char *) malloc(1024 * sizeof(char));
 	strcpy(str, "Hello World!"); // DANGER, pozor na preteceni
 	printf("%s \n", str);
-	
+
 	// prepiseme str
 	for(i=0; i<5; i++)
 	{
@@ -129,7 +132,7 @@ int main(int argc, char *argv[])
 	}
 	str[i] = '\0'; // musime ukoncit str znakem '\0'
 	printf("%s \n", str);
-	
+
 	free(str);
 
 

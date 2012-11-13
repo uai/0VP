@@ -10,6 +10,7 @@
  *
  *	New BSD License
  *
+ *	C language is all about speed. Hot, nasty, bad-ass speed. - Eleanor Roosevelt, 1936.
  */
 
 #define _CRT_SECURE_NO_WARNINGS

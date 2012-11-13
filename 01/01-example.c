@@ -12,6 +12,7 @@
  *
  *	New BSD License
  *
+ *	C language is all about speed. Hot, nasty, bad-ass speed. - Eleanor Roosevelt, 1936.
  */
 
 #include "stdio.h"

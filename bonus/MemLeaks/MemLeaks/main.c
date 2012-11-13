@@ -41,7 +41,7 @@ int main(int argc, char* argv[])
 	const int INT_ARRAY_SIZE = 10;
 		
 	// deklarace retezce
-	char* string; 
+	char* string;   
 	// definice pole 
 	int* vec = (int*) malloc(INT_ARRAY_SIZE * sizeof(int)); 
 	
@@ -49,7 +49,7 @@ int main(int argc, char* argv[])
 
 	//  alokace pameti a kopirovani textu do retezce
 	string = (char*) malloc(STR_SIZE);
-	strcpy(string, "Buffer overflow here i come...");
+	//strcpy(string, "Buffer overflow here i come...");
 	printf("%s \n", string);
 	
 	// prace s polem intu, pouzijeme o 5 prvku vice nez je 
