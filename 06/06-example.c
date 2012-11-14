@@ -32,14 +32,14 @@ int** alloc(int rows, int cols)
 	int **matrix;
 
 	matrix = (int **) calloc(rows, sizeof(int *)); 
-	//matrix = (int **) //malloc(rows * sizeof(int));
+	//matrix = (int **) malloc(rows * sizeof(int));
 
 	if (matrix != NULL)
 	{
 		for(i=0; i<rows; i++)
 		{
 			matrix[i] = (int *) calloc(cols, sizeof(int *)); 
-			//matrix[i] = (int *) //malloc(cols * sizeof(int)); 
+			//matrix[i] = (int *) malloc(cols * sizeof(int)); 
 		}
 	}
 	return matrix;	

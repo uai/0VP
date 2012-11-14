@@ -1,0 +1,41 @@
+1. 
+Napište program, který provede šifrování textového souboru pomocí Césarovy šifry 
+(https://en.wikipedia.org/wiki/Caesar_cipher).
+Zeptáte se uživatele na jméno souboru a posuv/klíè o který se budou znaky posouvat. 
+Po zašifrování se provede uložení do nového souboru se stejným jménem jen koncovka bude ".cry".
+
+2. 
+Dále vytvoøte program, který provede následující s uživatelem zadaným textovým souborem.
+Vytvoøte frekvenèní analýzu (https://en.wikipedia.org/wiki/Frequency_analysis) tohoto zadaného textového souboru a dále spoètìte:
+1) poèet všech znakù
+2) poèet bílých znakù
+3) poèet èíslic
+4) poèet velkých písmen
+5) poèet malých písmen
+6) poèet øádkù
+
+Výsledek vypište na obrazovku ve formátu:
+poèet všech znakù = X
+poèet bílých znakù = X
+poèet èíslic = X
+poèet velkých písmen = X
+poèet malých písmen = X
+poèet øádkù = X
+
+Pro frekvenèní analýzu vypište tabulku v takovémto tvaru
+A:X 
+B:X
+C:X 
+...
+
+Jako bonus zkuste tuto tabulku vytisknout takto nìjak:
+A*****
+B***
+C****
+D**
+E***********
+...
+
+BONUS
+Vytvoøte druhou tabulku pro frek. analýzu, kde poèet hvìzdièek pro každý znak bude v pomìru. 
+Resp. berte v potaz velký textový soubor a na jeden øádek pøíkazové øádky mùžete vytisknout pouze omezeny poèet znaku.
