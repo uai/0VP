@@ -82,8 +82,6 @@ int erase_node(link_t *node, erase_fun eraser)
 	if (!node)
 		return 0;
 
-	eraser(node->data);
-
 	// pred samotnym smazanim node musime 
 	// upravit ukazatele na dalsi node, jako je predchozi a nasledujici
 	if (node->prior != NULL)
@@ -118,7 +116,7 @@ int erase_node(link_t *node, erase_fun eraser)
 		else // pokud se jedna o posledni uzel
 			tmp = NULL;
 	}
-	//eraser(node->data);
+	eraser(node->data);
 	free(node);
 	node = NULL;
 	size--;

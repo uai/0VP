@@ -19,7 +19,7 @@ struct node
 
 int     push_back(data_t *data);
 int     erase(erase_fun eraser);
-int		erase_link(uint n, erase_fun eraser);
+int	erase_link(uint n, erase_fun eraser);
 
 uint    get_size();
 data_t* get_data(uint n);
