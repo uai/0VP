@@ -1,6 +1,7 @@
 #include "list.h"
 #include "stdio.h"
 
+
 link_t *pFirst  = NULL; 
 link_t *pLast   = NULL; 
 link_t *pActual = NULL; 
@@ -39,7 +40,7 @@ link_t* at(uint n)
 }
 
 // pridani itemu dna konec seznamu 
-int push_back(data_t data)
+int push_back(data_t *data)
 {
 	link_t *pNew;
 	pNew = (link_t *) malloc(sizeof(link_t));
@@ -73,13 +74,15 @@ int push_back(data_t data)
 }
 
 // smazani pouze jednoho node ze seznamu
-int erase_node(link_t *node)
+int erase_node(link_t *node, erase_fun eraser)
 {
 	link_t *tmp;
 		
 	// pokud je node NULL nemuzeme jej smazat
 	if (!node)
 		return 0;
+
+	eraser(node->data);
 
 	// pred samotnym smazanim node musime 
 	// upravit ukazatele na dalsi node, jako je predchozi a nasledujici
@@ -115,7 +118,7 @@ int erase_node(link_t *node)
 		else // pokud se jedna o posledni uzel
 			tmp = NULL;
 	}
-
+	//eraser(node->data);
 	free(node);
 	node = NULL;
 	size--;
@@ -127,15 +130,24 @@ int erase_node(link_t *node)
 }
 
 // smazani vsech node ze seznamu
-int erase()
+int erase(erase_fun eraser)
 {
 	pActual = pFirst;
 
 	while(size)
 	{
-		erase_node(pActual);
+		erase_node(pActual, eraser);
 	}
 	
+	return 1;
+}
+
+// smazani daneho linku ze seznamu
+int erase_link(uint n, erase_fun eraser)
+{
+	link_t *tmp = at(n);
+	erase_node(tmp, eraser);
+
 	return 1;
 }
 
@@ -146,7 +158,7 @@ uint get_size()
 }
 
 // vraci data z daneho uzlu v poradi dle n ze seznamu
-data_t get_data(uint n)
+data_t* get_data(uint n)
 {
 	if(n>=0 && n<size)
 	{
@@ -157,17 +169,16 @@ data_t get_data(uint n)
 	return 0;
 }
 
-// !!!HELPER tvytiskneme si data
-//void print_data()
-void print_data(void (*print)(data_t))
+// preda postupne data z node k vytisteni fci. print_data
+//void print(void (*print_data)(data_t*))
+void print_data(print_fun print)
 {
 	uint i  = 0;
 
 	pActual = pFirst;
 	for (i=0; i<size; i++)
 	{
-		//printf("list[%d] = %d \n", i, pActual->data);
-		printf("List item [%d] = ", i);
+		//printf("List item [%d] = ", i);
 		print(pActual->data);
 
 		next();
