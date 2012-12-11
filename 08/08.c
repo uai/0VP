@@ -41,6 +41,8 @@ static enum planets
 static char *PlanetNames[] = {"Mercury", "Venus", "Earth", "Mars", 
 	"Jupiter", "Saturn", "Uranus", "Neptune"};
 
+
+
 //  struktura nema jmeno, ale je vytvoren datovy typ PlanetDistance, 
 // coz je prave tato strukruta
 typedef struct 
@@ -55,7 +57,8 @@ struct Planet
 	char Name[20];
 	PLANET_DIST distance; 
 	moons moonCount;
-}; 
+};
+
 
 void populatePlanets(struct Planet *ptr, int size)
 {
@@ -76,7 +79,7 @@ void populatePlanets(struct Planet *ptr, int size)
 	strcpy(ptr->Name, "Earth");
 	ptr->distance.FromEarth = 0;
 	ptr->distance.FromSun = 149;
-	ptr->moonCount = 0;	
+	ptr->moonCount = 1;	
 
 	ptr++;
 
@@ -142,7 +145,6 @@ void printPlanetInfo(struct Planet planet)
 
 }
 
-
 int main(int argc, char *argv[])
 {
 	int i;
@@ -157,11 +159,10 @@ int main(int argc, char *argv[])
 	for (i=0; i<PLANET_COUNT; i++)
 	{
 		printf("Name: %s.\n", planets[i].Name);
-		printf("Distance from Sun: %.2 millions of km.\n", planets[i].distance.FromSun);
-		printf("Distance from Earth: %.2 millions of km.\n", planets[i].distance.FromEarth);
+		printf("Distance from Sun: %.2f millions of km.\n", planets[i].distance.FromSun);
+		printf("Distance from Earth: %.2f millions of km.\n", planets[i].distance.FromEarth);
 		printf("Moon count: %d.\n", planets[i].moonCount);
 		printf("-----------------------------------------------------\n");
-		
 	}
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------
@@ -179,7 +180,7 @@ int main(int argc, char *argv[])
 	printf("=====================================================\n");
 	printf("Vyber cislo nektere z planet: ");
 	scanf("%d", &select);
-	if(select >= 0 && select <= PLANET_COUNT)
+	if(select >= 0 && select < PLANET_COUNT)
 	{
 		switch (select)
 		{
@@ -208,11 +209,10 @@ int main(int argc, char *argv[])
 			printPlanetInfo(planets[Neptune]);
 			break;
 		}
-
+			
+	} else {
 		printf("Out of range... \n");
-	}
-
-	
+	}	
 
 
 	return 0;
